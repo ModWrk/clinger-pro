@@ -3,11 +3,11 @@ const path = require('path');
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
+
   return new Promise((resolve, reject) => {
     graphql(`
       {
         allMarkdownRemark {
-          sort: { fields; [frontmatter] }
           edges {
             node {
               frontmatter {
