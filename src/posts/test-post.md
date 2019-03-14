@@ -1,4 +1,5 @@
 ---
+slug: "/test-post"
 title: test post
 ---
 A whole buncha random text and images go here.

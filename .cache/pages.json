@@ -40,6 +40,11 @@
         "path": "/posts/second-post"
     },
     {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-test-post-534",
+        "path": "/posts/test-post"
+    },
+    {
         "componentChunkName": "component---src-pages-services-js",
         "jsonName": "services-522",
         "path": "/services/"

@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Our Second Post","slug":"/second-post"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"test post","slug":"/test-post"}}},{"node":{"frontmatter":{"title":"Our Second Post","slug":"/second-post"}}}]}}}
