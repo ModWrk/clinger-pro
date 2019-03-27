@@ -6,15 +6,15 @@ const LISTING_QUERY = graphql`
   query BlogPostListing {
     allMarkdownRemark(limit: 10, sort: {
     order: DESC,
-    fields: [frontmatter___date]
+    fields: [frontmatter___slug]
   }) {
       edges {
         node {
           excerpt
           frontmatter {
             # date(formatString: "MMMM DD, YYYY")
-            title
             slug
+            title
           }
         }
       }
