@@ -33,7 +33,6 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date
         slug
       }
     }
